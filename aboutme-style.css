@@ -7,7 +7,17 @@ text-align: center;
 p{
 		font-size: 20px;
 		font-family: Tahoma;
+
 }
+
+p:first-letter {
+    float: left;
+    font-size: 45px;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 9px;
+}
+
 
 body{
 	background-color: #45f597;
@@ -29,4 +39,14 @@ ul{
 		font-family: Tahoma;
 		font-style: italic;
 		
+}
+a:link {
+  text-decoration: none;
+
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  text-decoration: none;
 }
